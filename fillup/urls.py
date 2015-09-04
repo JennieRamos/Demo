@@ -3,5 +3,5 @@ from . import views
 from . import models
 
 urlpatterns = [
-    url(r'^fillup/', views.fillup),
+    url(r'^$', views.fillup),
 ]
